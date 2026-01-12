@@ -1,4 +1,2 @@
-1. What's the difference between rem and px? Rem added nice padding to the website.
-2. Why the ::root and ::webkit stuff?
-3. Whats the @media stuff?
-4. Javascript: Difference between let, const, and var.
+1. Add swiping feature for projects.
+2. Add projects background.
