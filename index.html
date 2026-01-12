@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", "initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="swiper.min.css">
+
+    <!--awesome fonts link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <!--custom stylesheet-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="header">
+        <section class="flex">
+
+            <!-- font awesome briefcase icon-->
+            <!-- <a href="#" class="logo"><i class="fas fa-briefcase"></i>Portfolio</a> -->
+            
+            <a href="#" class="logo"><i class="fas fa-folder-open"></i><b>Portfolio</b></a>
+            
+            <nav class="navbar">
+
+                <!-- close button -->
+                <div class="fas fa-xmark" id="close-btn"></div>
+                <a href="#home">Home</a>
+                <a href="#skills">Skills</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                
+                <!--
+                <a href="#contact">Contact</a>
+                -->
+
+            </nav>
+
+            <!-- menu button-->
+            <div id="menu-btn" class="fas fa-bars"></div>
+
+        </section>
+
+    </header>
+
+    <!-- home section -->
+    <div class="home" id="home">
+        <section class="flex">
+
+            <div class="content">
+
+                <h1><em>Elyssa Waite</em></h1>
+                
+                <!-- <h3>I am currently studying Computer Science at the University of South Florida.
+                    This portfolio details my experience
+                </h3> -->
+
+                <p>I am currently studying Computer Science at the University of South Florida.</p>
+                <p>This portfolio details my prommaing experience, my credentials, and various completed projects
+                which display my programming capabilities.</p>
+                
+                <!-- Resume Button -->
+                <div class="button-container">
+                    <a href="./images/Elyssa Waite SWE Resume.pdf" class="btn"> Download Resume</a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- divider beginning -->
+        <div class="bottom-image">
+            <img src="./images/portfolio_divider.png" alt="divider">
+        </div>
+
+    </div>
+    <!-- end of home section -->
+
+    <!-- skills section -->
+     <div class="skills" id="skills">
+
+        <div class="heading">
+            <span>My Skills</span>
+            <p>Programming languages I have the most experience in:</p>
+        </div>
+
+        <section class="box-container">
+            <div class="box">
+                <img src="./images/C_Logo.png">
+                <h3>C</h3>
+            </div>
+
+            <div class="box">
+                <img src="./images/CPP_Logo.png">
+                <h3>C++</h3>
+            </div>
+
+            <div class="box">
+                <img src="./images/CSS_Logo.png">
+                <h3>CSS</h3>
+            </div>
+
+            <div class="box">
+                <img src="./images/html_logo.png">
+                <h3>HTML</h3>
+            </div>
+
+            <div class="box">
+                <img src="./images/java_logo.png">
+                <h3>Java</h3>
+            </div>
+
+            <div class="box">
+                <img src="./images/javascript_logo.png">
+                <h3>JavaScript</h3>
+            </div>
+
+            <div class="box">
+                <img src="./images/Node.js_logo.png">
+                <h3>Node.js</h3>
+            </div>
+
+            <div class="box">
+                <img src="./images/discordjs_logo.png">
+                <h3>Discord.js</h3>
+            </div>
+
+        </section>
+
+    </div>
+
+    <div class="background-container">
+    <!-- about section begins -->
+
+        <div class="about-top-image">
+            <img src="images/portfolio_divider_end.png" alt="divider-end">
+        </div>
+
+        <section class="about" id="about">
+            <div class="row">
+
+                <div class="content">
+                    
+                    <div class="heading">
+                        <span>About Me</span>
+                        <h3>My Education</h3>
+                        <p class="description">Lorem Ipsum, all that jazz.</p>
+                    </div>
+                    
+                    
+                    <div class="info">
+
+                        <h3><em>Personal Info</em></h3>
+
+                        <div class="flex">
+
+                            <p><span>Name:</span> Elyssa Waite-Ulett</p>
+                            <p><span>Location:</span> Tampa, Florida</p>
+                            <p><span>Areas of Interest:</span> Full-Stack Development</p>
+                            <p><span>Label:</span> Experience tailoring software to suit administrative needs, handling data which requires careful attention to detail, etc.</p>
+                            <p><span>Label:</span> Answer</p>
+
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+                <div class="about-pictures">
+
+                    
+                    <img src="images/cutout_headphones.png">
+
+                    <img src="images/cutout_books.png">
+                    
+                    <!--
+                    
+                    <div class="column-pictures">
+            
+                        <img src="images/cutout_books.png">
+                    
+                    </div>
+                    
+                    -->
+
+                    <!-- laptop picture
+                    <img src="images/cutout_laptop.png">
+                    -->
+
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+
+    <!-- projects section begins -->
+    <section class="projects" id="projects">
+
+        <div class="heading">
+            <h3><span>My Projects</span></h3>
+        </div>
+
+        <div class="p-container">
+            <div class="slide-container">
+                <div class="slide-content">
+                    <div class="card-wrapper">
+                        <div class="card">
+
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="images/pale_clouds.png" alt="clouds" class="card-img">
+                                </div>
+
+                            </div>
+
+                            <div class="card-content">
+                                <h2 class="name">Discord Bot</h2>
+                                <p class="description">Describe the bot here!</p>
+
+                                <a href="https://github.com/ewaiteu/du-bot-public" class="button">
+                                    <button class="bot-button">View</button>
+                                </a>
+                            </div>
+
+
+                        </div>
+
+                        <div class="card">
+
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="images/pale_clouds.png" alt="clouds" class="card-img">
+                                </div>
+
+                            </div>
+
+                            <div class="card-content">
+                                <h2 class="name">Discord Bot</h2>
+                                <p class="description">Describe the bot here!</p>
+
+                                <button class="button">View</button>
+                            </div>
+
+
+                        </div>
+
+                        <div class="card">
+
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="images/pale_clouds.png" alt="clouds" class="card-img">
+                                </div>
+
+                            </div>
+
+                            <div class="card-content">
+                                <h2 class="name">Discord Bot</h2>
+                                <p class="description">Describe the bot here!</p>
+
+                                <button class="button">View</button>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="footer">
+        <section class="flex">
+
+            <div class="share">
+                <a href="#" class="fab fa-github"></a>
+            </div>
+
+            <div class="final-line">
+                <p>Currently available for work!</p>
+                <a href="#" class="btn"> Download Resume</a>
+            </div>
+
+        </section>
+    </footer>
+
+
+
+
+    <!--jquery source-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+
+    <!--personal custom script file-->
+    <script src="script.js"></script>
+
+    <!-- swiper js -->
+    <script src="swiper.js"></script>
+
+</body>
+</html>
