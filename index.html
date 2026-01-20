@@ -16,38 +16,36 @@
 
 </head>
 <body>
-    <header class="header">
-        <section class="flex">
-
-            <!-- font awesome briefcase icon-->
-            <!-- <a href="#" class="logo"><i class="fas fa-briefcase"></i>Portfolio</a> -->
-            
-            <a href="#" class="logo"><i class="fas fa-folder-open"></i><b>Portfolio</b></a>
-            
-            <nav class="navbar">
-
-                <!-- close button -->
-                <div class="fas fa-xmark" id="close-btn"></div>
-                <a href="#home">Home</a>
-                <a href="#skills">Skills</a>
-                <a href="#about">About</a>
-                <a href="#projects">Projects</a>
-                
-                <!--
-                <a href="#contact">Contact</a>
-                -->
-
-            </nav>
-
-            <!-- menu button-->
-            <div id="menu-btn" class="fas fa-bars"></div>
-
-        </section>
-
-    </header>
 
     <!-- home section -->
     <div class="home" id="home">
+
+        <div class="home-background"></div>
+
+        <header class="header">
+            <section class="flex">
+
+                <!-- folder icon-->                
+                <a href="#" class="logo"><i class="fas fa-folder-open"></i><b>Portfolio</b></a>
+                
+                <nav class="navbar">
+
+                    <!-- close button -->
+                    <div class="fas fa-xmark" id="close-btn"></div>
+                    <a href="#home">Home</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                
+
+                </nav>
+
+                <!-- menu button-->
+                <div id="menu-btn" class="fas fa-bars"></div>
+
+            </section>
+        </header>
+
         <section class="flex">
 
             <div class="content">
@@ -59,12 +57,12 @@
                 </h3> -->
 
                 <p>I am currently studying Computer Science at the University of South Florida.</p>
-                <p>This portfolio details my prommaing experience, my credentials, and various completed projects
+                <p>This portfolio details my programming experience, my credentials, and various completed projects
                 which display my programming capabilities.</p>
                 
                 <!-- Resume Button -->
                 <div class="button-container">
-                    <a href="./images/Elyssa Waite SWE Resume.pdf" class="btn"> Download Resume</a>
+                    <a href="./images/Elyssa Waite SWE Resume.pdf" target="_blank" class="btn"> Download Resume</a>
                 </div>
 
             </div>
@@ -146,22 +144,23 @@
                     
                     <div class="heading">
                         <span>About Me</span>
-                        <h3>My Education</h3>
-                        <p class="description">Lorem Ipsum, all that jazz.</p>
                     </div>
                     
                     
                     <div class="info">
 
-                        <h3><em>Personal Info</em></h3>
+                        <h3><em>Meet The Developer...</em></h3>
 
                         <div class="flex">
 
-                            <p><span>Name:</span> Elyssa Waite-Ulett</p>
-                            <p><span>Location:</span> Tampa, Florida</p>
-                            <p><span>Areas of Interest:</span> Full-Stack Development</p>
-                            <p><span>Label:</span> Experience tailoring software to suit administrative needs, handling data which requires careful attention to detail, etc.</p>
-                            <p><span>Label:</span> Answer</p>
+                            <p>I am a dedicated software developer who is passionate about problem-solving technology. I aim to design digital tools that are tailored to the needs of my clients and accomplish their goals through my work.
+                            
+                                My primary areas of interest are web development, automation, and database management. It is imperative to me that my projects are not only useful, but easy to use and accessible. I am well-experienced in incorporating feedback into my designs to create the best experience possible for potential users. Years spent working directly with clients has honed my strong communication skills.
+                                
+                                My hobbies include reading novels in my free time and connecting with the local music scene through attending live shows in the area.
+                            
+                            
+                            </p>
 
                         </div>
 
@@ -195,102 +194,110 @@
             </div>
         </section>
 
-    </div>
-
-
-    <!-- projects section begins -->
-    <section class="projects" id="projects">
-
-        <div class="heading">
-            <h3><span>My Projects</span></h3>
+        <div class="white-divider">
+            <img src="./images/white_line_divider.png">
         </div>
 
-        <div class="p-container">
-            <div class="slide-container">
-                <div class="slide-content">
-                    <div class="card-wrapper">
-                        <div class="card">
+    </div>
 
-                            <div class="image-content">
-                                <span class="overlay"></span>
+    <div class="projects-bg">
 
-                                <div class="card-image">
-                                    <img src="images/pale_clouds.png" alt="clouds" class="card-img">
+        <!-- projects section begins -->
+        <section class="projects" id="projects">
+
+            <div class="heading">
+                <span>My Projects</span>
+            </div>
+
+            <div class="p-container">
+                <div class="slide-container">
+                    <div class="slide-content">
+                        <div class="card-wrapper">
+                            <div class="card">
+
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+
+                                    <div class="card-image">
+                                        <img src="images/discord_logo.png" alt="discord" class="card-img">
+                                    </div>
+
                                 </div>
 
-                            </div>
+                                <div class="card-content">
+                                    <h2 class="name">Discord Bot</h2>
+                                    <p class="description">A discord application tailored to the administrative needs of staff, including a ticket system to monitor internal reports and applications.</p>
 
-                            <div class="card-content">
-                                <h2 class="name">Discord Bot</h2>
-                                <p class="description">Describe the bot here!</p>
-
-                                <a href="https://github.com/ewaiteu/du-bot-public" class="button">
-                                    <button class="bot-button">View</button>
-                                </a>
-                            </div>
-
-
-                        </div>
-
-                        <div class="card">
-
-                            <div class="image-content">
-                                <span class="overlay"></span>
-
-                                <div class="card-image">
-                                    <img src="images/pale_clouds.png" alt="clouds" class="card-img">
+                                    <a href="https://github.com/ewaiteu/du-bot-public" target="_blank" class="button">
+                                        <button class="bot-button">View</button>
+                                    </a>
                                 </div>
 
+
                             </div>
 
-                            <div class="card-content">
-                                <h2 class="name">Discord Bot</h2>
-                                <p class="description">Describe the bot here!</p>
+                            <div class="card">
 
-                                <button class="button">View</button>
-                            </div>
+                                <div class="image-content">
+                                    <span class="overlay"></span>
 
+                                    <div class="card-image">
+                                        <img src="images/portfolio_folder.png" alt="folder" class="card-img">
+                                    </div>
 
-                        </div>
-
-                        <div class="card">
-
-                            <div class="image-content">
-                                <span class="overlay"></span>
-
-                                <div class="card-image">
-                                    <img src="images/pale_clouds.png" alt="clouds" class="card-img">
                                 </div>
 
+                                <div class="card-content">
+                                    <h2 class="name">My Portfolio</h2>
+                                    <p class="description">A personal website coded in front-end languages such as HTML, CSS, and Javascript.</p>
+                                    <button onclick="window.location.href='#home'" class="portfolio-button">View</button>
+                                </div>
+
+
                             </div>
 
-                            <div class="card-content">
-                                <h2 class="name">Discord Bot</h2>
-                                <p class="description">Describe the bot here!</p>
+                            <div class="card">
 
-                                <button class="button">View</button>
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+
+                                    <div class="card-image">
+                                        <img src="images/plus_sign.png" alt="clouds" class="card-img">
+                                    </div>
+
+                                </div>
+
+                                <div class="card-content">
+                                    <h2 class="name">More to come...</h2>
+                                    <p class="description">I am excited to complete future projects and expand upon this library! Contact me for inquiries.</p>
+                                    
+                                    <!--
+                                    <button onclick="window.location.href='#home'" class="portfolio-button">View</button>
+                                    -->
+                                </div>
+
+
                             </div>
-
 
                         </div>
-
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+    </div>
 
     <!-- footer section -->
     <footer class="footer">
         <section class="flex">
 
             <div class="share">
-                <a href="#" class="fab fa-github"></a>
+                <a href="https://github.com/ewaiteu" target="_blank" class="fab fa-github"></a>
             </div>
 
             <div class="final-line">
                 <p>Currently available for work!</p>
-                <a href="#" class="btn"> Download Resume</a>
+                <a href="./images/Elyssa Waite SWE Resume.pdf" target="_blank" class="btn"> Download Resume</a>
             </div>
 
         </section>

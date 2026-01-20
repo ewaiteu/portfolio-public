@@ -1,6 +1,6 @@
 let menuBtn = document.querySelector('#menu-btn');
 let closeBtn = document.querySelector('#close-btn');
-let navbar = document.querySelector('.header .flex .navbar');
+let navbar = document.querySelector('.home .header .flex .navbar');
 
 menuBtn.onclick = () => {
     navbar.classList.add('active');
