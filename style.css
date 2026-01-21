@@ -799,8 +799,8 @@ section {
     font-size: 13px;
 }
 
-.footer .flex .share {
-    font-size: 20px;
+.footer .flex .share a {
+    font-size: 25px;
     color: #fff;
     position: relative;
     margin-left: -9rem;
